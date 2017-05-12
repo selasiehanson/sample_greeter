@@ -6,6 +6,8 @@ class SampleGreeter::Translator
 
   def hi
     case @language
+    when 'french'
+      'bonjour mon amie'
     when 'spanish'
       'hola mundo'
     else

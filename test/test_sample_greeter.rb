@@ -13,4 +13,9 @@ class SampleGreeterTest < MiniTest::Test
   def test_spanish_hello
     assert_equal "hola mundo", SampleGreeter.hi("spanish") 
   end
+
+  def test_french_hello
+    assert_equal "bonjour mon amie", SampleGreeter.hi("french") 
+  end
+
 end
